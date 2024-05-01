@@ -1,79 +1,154 @@
-.quiz-question-container{
-    background-color: #875fc0;
-    padding: 25px;
-    width: 356px;
-    height: 654px;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background-container {
+    background-color: #1b1b1b;
+
+
 }
-.score{
+
+.main-heading {
+    color: #ffffff;
+    font-family: "bree serif";
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.popular-book-container {
+    background-color: #e6f6ff;
+    border-radius: 5px;
+    height: 30vh;
+    margin: 20px;
+}
+
+.image {
+    height: 30vh;
+}
+
+.popular-book-detailes {
+    padding: 15px;
+}
+
+.image-heading {
+    color: #183b56;
+    font-family: "bree serif";
+    font-size: 25px;
+    font-weight: 500;
     text-align: right;
-    color:#ffffff;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 710;
 }
-.question-container{
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 16px;
+
+.image-paragraph {
+    color: #06070d;
+    font-family: "bree serif";
+    font-size: 10px;
+    font-weight: 500;
+    text-align: right;
 }
-.question-number {
-    color: #1f2933;
-    font-family: Roboto;
+
+.writer-name {
+    color: #183b56;
+    font-family: "bree serif";
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.recommended-books-container {
+    padding: 10px;
+}
+
+.recommended-books-heading {
+    font-family: "bree serif";
     font-size: 20px;
     font-weight: 500;
-
-}
-.question-text{
-    color: #323f4b;
-    font-family: Roboto;
-    font-size: 14px;
-
-}
-.question-image{
-    width: 240px;
-
+    color: #ffffff;
+    padding: 15px;
+    text-align: left;
 }
 
-.option-container{
-    background-color: #ffffff;
-    border-radius: 8px;
+.recommended-image {
+    height: 28vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.chetan-bhagat-detailes-container {
     padding: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    
 }
-.otions-list{
-    list-style-type: none;
+
+.authors-container {
+    padding: 5px;
+}
+
+.chetan-bhagat-detailes-heading {
+    font-size: 18px;
+    font-family: "bree serif";
+    font-weight: 500;
+    padding: 0px;
+    color: #ffffff;
+}
+
+.indian-author-description {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "bree serif";
+    font-weight: 300;
     padding: 0px;
 }
-.option{
-    color: #323f4b;
-    background-color: #ffffff;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #323f4b;
-    border-radius: 8px;
-    padding: 13px;
-    margin: 13px;
+
+.book-detailes-page {
+    background-color: #1b1b1b;
+
 }
-.correct-option{
-     color: #ffffff;
-     background-color: #875fc0;
+
+.book-detailes-image {
+    border-radius: 10px;
+    height: 40vh;
+
+    padding: 40px;
 }
-.button{
+
+.book-deep-detailes-container {
+    padding: 5px;
+    height: 100vh;
+}
+
+.book-detailes-heading {
     color: #ffffff;
-    background-color: #fbaf00;
-    font-family: Roboto;
-    font-size: 14px;
     font-weight: 500;
-    width: 98px;
-    height: 38px;
-    border-width: 0px;
-    border-radius: 8px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: "bree serif";
+    text-align: left;
 }
-.img{
-    width: 206px;
+
+.book-detailes-author {
+    font-family: "bree serif";
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+    color: #9aa5b1;
+}
+
+.book-detailes-description {
+    font-family: "bree serif";
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+.button {
+    height: 36px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.button-container {
+    padding: 5px;
+    margin: 55px;
+
 }
